@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yfS1HhytELaU0HnI5xGVgNlBv6DFRfMQkSrTHtQznqfxCvSKkcqMVavQwZwxxcv/r555KduDGW6i2z+5gzuHaQ==",
+  "dgSpecHash": "HeZjs6ADNEfA6l4YD4B581VfkKwOOpqQPXUum2L4jDL7+cbzqayHb+hXQ7CMChxlXD7jEWxJuyX69yPd8k9DtQ==",
   "success": true,
-  "projectFilePath": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Application/Fetagne.Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Application/Fetagne.Application.csproj",
+  "expectedPackageFiles": [
+    "/home/yonatantesfaye/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

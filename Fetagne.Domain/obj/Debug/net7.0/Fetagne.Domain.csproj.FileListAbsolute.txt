@@ -10,3 +10,15 @@
 /home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Domain/obj/Debug/net7.0/refint/Fetagne.Domain.dll
 /home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Domain/obj/Debug/net7.0/Fetagne.Domain.pdb
 /home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Domain/obj/Debug/net7.0/ref/Fetagne.Domain.dll
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Domain/bin/Debug/net7.0/Fetagne.Domain.deps.json
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Domain/bin/Debug/net7.0/Fetagne.Domain.dll
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Domain/bin/Debug/net7.0/Fetagne.Domain.pdb
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Domain/obj/Debug/net7.0/Fetagne.Domain.csproj.AssemblyReference.cache
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Domain/obj/Debug/net7.0/Fetagne.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Domain/obj/Debug/net7.0/Fetagne.Domain.AssemblyInfoInputs.cache
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Domain/obj/Debug/net7.0/Fetagne.Domain.AssemblyInfo.cs
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Domain/obj/Debug/net7.0/Fetagne.Domain.csproj.CoreCompileInputs.cache
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Domain/obj/Debug/net7.0/Fetagne.Domain.dll
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Domain/obj/Debug/net7.0/refint/Fetagne.Domain.dll
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Domain/obj/Debug/net7.0/Fetagne.Domain.pdb
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Domain/obj/Debug/net7.0/ref/Fetagne.Domain.dll

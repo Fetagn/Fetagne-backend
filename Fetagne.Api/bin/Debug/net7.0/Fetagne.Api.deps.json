@@ -8,6 +8,9 @@
     ".NETCoreApp,Version=v7.0": {
       "Fetagne.Api/1.0.0": {
         "dependencies": {
+          "Fetagne.Application": "1.0.0",
+          "Fetagne.Contracts": "1.0.0",
+          "Fetagne.Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "7.0.8",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
@@ -72,6 +75,32 @@
             "fileVersion": "6.5.0.0"
           }
         }
+      },
+      "Fetagne.Application/1.0.0": {
+        "dependencies": {
+          "Fetagne.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Fetagne.Application.dll": {}
+        }
+      },
+      "Fetagne.Contracts/1.0.0": {
+        "runtime": {
+          "Fetagne.Contracts.dll": {}
+        }
+      },
+      "Fetagne.Domain/1.0.0": {
+        "runtime": {
+          "Fetagne.Domain.dll": {}
+        }
+      },
+      "Fetagne.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Fetagne.Application": "1.0.0"
+        },
+        "runtime": {
+          "Fetagne.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -129,6 +158,26 @@
       "sha512": "sha512-OvbvxX+wL8skxTBttcBsVxdh73Fag4xwqEU2edh4JMn7Ws/xJHnY/JB1e9RoCb6XpDxUF3hD9A0Z1lEUx40Pfw==",
       "path": "swashbuckle.aspnetcore.swaggerui/6.5.0",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+    },
+    "Fetagne.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Fetagne.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Fetagne.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Fetagne.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

@@ -7,14 +7,40 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "Fetagne.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Fetagne.Application": "1.0.0"
+        },
         "runtime": {
           "Fetagne.Infrastructure.dll": {}
+        }
+      },
+      "Fetagne.Application/1.0.0": {
+        "dependencies": {
+          "Fetagne.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Fetagne.Application.dll": {}
+        }
+      },
+      "Fetagne.Domain/1.0.0": {
+        "runtime": {
+          "Fetagne.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Fetagne.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Fetagne.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Fetagne.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

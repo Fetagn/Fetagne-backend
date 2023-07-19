@@ -10,3 +10,15 @@
 /home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Contracts/obj/Debug/net7.0/refint/Fetagne.Contracts.dll
 /home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Contracts/obj/Debug/net7.0/Fetagne.Contracts.pdb
 /home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Contracts/obj/Debug/net7.0/ref/Fetagne.Contracts.dll
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Contracts/bin/Debug/net7.0/Fetagne.Contracts.deps.json
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Contracts/bin/Debug/net7.0/Fetagne.Contracts.dll
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Contracts/bin/Debug/net7.0/Fetagne.Contracts.pdb
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Contracts/obj/Debug/net7.0/Fetagne.Contracts.csproj.AssemblyReference.cache
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Contracts/obj/Debug/net7.0/Fetagne.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Contracts/obj/Debug/net7.0/Fetagne.Contracts.AssemblyInfoInputs.cache
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Contracts/obj/Debug/net7.0/Fetagne.Contracts.AssemblyInfo.cs
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Contracts/obj/Debug/net7.0/Fetagne.Contracts.csproj.CoreCompileInputs.cache
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Contracts/obj/Debug/net7.0/Fetagne.Contracts.dll
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Contracts/obj/Debug/net7.0/refint/Fetagne.Contracts.dll
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Contracts/obj/Debug/net7.0/Fetagne.Contracts.pdb
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Contracts/obj/Debug/net7.0/ref/Fetagne.Contracts.dll

@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Fetagne.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Fetagne.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Fetagne.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Fetagne.Application.dll": {}
+        }
+      },
+      "Fetagne.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Fetagne.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Fetagne.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Fetagne.Application/1.0.0": {
+      "type": "project",
+      "path": "../Fetagne.Application/Fetagne.Application.csproj",
+      "msbuildProject": "../Fetagne.Application/Fetagne.Application.csproj"
+    },
+    "Fetagne.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Fetagne.Domain/Fetagne.Domain.csproj",
+      "msbuildProject": "../Fetagne.Domain/Fetagne.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Fetagne.Application >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/yonatantesfaye/.nuget/packages/": {}
@@ -13,11 +50,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Infrastructure/Fetagne.Infrastructure.csproj",
+      "projectUniqueName": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Infrastructure/Fetagne.Infrastructure.csproj",
       "projectName": "Fetagne.Infrastructure",
-      "projectPath": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Infrastructure/Fetagne.Infrastructure.csproj",
+      "projectPath": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Infrastructure/Fetagne.Infrastructure.csproj",
       "packagesPath": "/home/yonatantesfaye/.nuget/packages/",
-      "outputPath": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Infrastructure/obj/",
+      "outputPath": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/yonatantesfaye/.nuget/NuGet/NuGet.Config"
@@ -31,7 +68,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Application/Fetagne.Application.csproj": {
+              "projectPath": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Application/Fetagne.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

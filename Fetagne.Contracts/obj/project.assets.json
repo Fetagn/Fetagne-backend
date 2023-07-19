@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Contracts/Fetagne.Contracts.csproj",
+      "projectUniqueName": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Contracts/Fetagne.Contracts.csproj",
       "projectName": "Fetagne.Contracts",
-      "projectPath": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Contracts/Fetagne.Contracts.csproj",
+      "projectPath": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Contracts/Fetagne.Contracts.csproj",
       "packagesPath": "/home/yonatantesfaye/.nuget/packages/",
-      "outputPath": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Contracts/obj/",
+      "outputPath": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Contracts/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/yonatantesfaye/.nuget/NuGet/NuGet.Config"

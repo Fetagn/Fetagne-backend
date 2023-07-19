@@ -107,6 +107,52 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Fetagne.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Fetagne.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Fetagne.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Fetagne.Application.dll": {}
+        }
+      },
+      "Fetagne.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Fetagne.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Fetagne.Contracts.dll": {}
+        }
+      },
+      "Fetagne.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Fetagne.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Fetagne.Domain.dll": {}
+        }
+      },
+      "Fetagne.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Fetagne.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Fetagne.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Fetagne.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -460,10 +506,33 @@
         "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Fetagne.Application/1.0.0": {
+      "type": "project",
+      "path": "../Fetagne.Application/Fetagne.Application.csproj",
+      "msbuildProject": "../Fetagne.Application/Fetagne.Application.csproj"
+    },
+    "Fetagne.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Fetagne.Contracts/Fetagne.Contracts.csproj",
+      "msbuildProject": "../Fetagne.Contracts/Fetagne.Contracts.csproj"
+    },
+    "Fetagne.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Fetagne.Domain/Fetagne.Domain.csproj",
+      "msbuildProject": "../Fetagne.Domain/Fetagne.Domain.csproj"
+    },
+    "Fetagne.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Fetagne.Infrastructure/Fetagne.Infrastructure.csproj",
+      "msbuildProject": "../Fetagne.Infrastructure/Fetagne.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Fetagne.Application >= 1.0.0",
+      "Fetagne.Contracts >= 1.0.0",
+      "Fetagne.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.8",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
@@ -474,11 +543,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Api/Fetagne.Api.csproj",
+      "projectUniqueName": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Api/Fetagne.Api.csproj",
       "projectName": "Fetagne.Api",
-      "projectPath": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Api/Fetagne.Api.csproj",
+      "projectPath": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Api/Fetagne.Api.csproj",
       "packagesPath": "/home/yonatantesfaye/.nuget/packages/",
-      "outputPath": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Api/obj/",
+      "outputPath": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/yonatantesfaye/.nuget/NuGet/NuGet.Config"
@@ -493,7 +562,17 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Application/Fetagne.Application.csproj": {
+              "projectPath": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Application/Fetagne.Application.csproj"
+            },
+            "/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Contracts/Fetagne.Contracts.csproj": {
+              "projectPath": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Contracts/Fetagne.Contracts.csproj"
+            },
+            "/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Infrastructure/Fetagne.Infrastructure.csproj": {
+              "projectPath": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Infrastructure/Fetagne.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
