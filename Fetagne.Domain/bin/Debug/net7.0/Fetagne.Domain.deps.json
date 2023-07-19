@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Fetagne.Domain/1.0.0": {
+        "runtime": {
+          "Fetagne.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Fetagne.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

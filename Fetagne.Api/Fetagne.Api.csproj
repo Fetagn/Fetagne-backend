@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.8" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Fetagne.Contracts\Fetagne.Contracts.csproj" />
+    <ProjectReference Include="..\Fetagne.Application\Fetagne.Application.csproj" />
+    <ProjectReference Include="..\Fetagne.Infrastructure\Fetagne.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

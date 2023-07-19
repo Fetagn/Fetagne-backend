@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Application/Fetagne.Application.csproj": {}
+  },
+  "projects": {
+    "/home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Application/Fetagne.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Application/Fetagne.Application.csproj",
+        "projectName": "Fetagne.Application",
+        "projectPath": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Application/Fetagne.Application.csproj",
+        "packagesPath": "/home/yonatantesfaye/.nuget/packages/",
+        "outputPath": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/yonatantesfaye/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.305/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

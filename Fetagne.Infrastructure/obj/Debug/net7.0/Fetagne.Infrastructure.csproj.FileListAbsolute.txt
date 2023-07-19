@@ -1,0 +1,12 @@
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Infrastructure/bin/Debug/net7.0/Fetagne.Infrastructure.deps.json
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Infrastructure/bin/Debug/net7.0/Fetagne.Infrastructure.dll
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Infrastructure/bin/Debug/net7.0/Fetagne.Infrastructure.pdb
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Infrastructure/obj/Debug/net7.0/Fetagne.Infrastructure.csproj.AssemblyReference.cache
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Infrastructure/obj/Debug/net7.0/Fetagne.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Infrastructure/obj/Debug/net7.0/Fetagne.Infrastructure.AssemblyInfoInputs.cache
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Infrastructure/obj/Debug/net7.0/Fetagne.Infrastructure.AssemblyInfo.cs
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Infrastructure/obj/Debug/net7.0/Fetagne.Infrastructure.csproj.CoreCompileInputs.cache
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Infrastructure/obj/Debug/net7.0/Fetagne.Infrastructure.dll
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Infrastructure/obj/Debug/net7.0/refint/Fetagne.Infrastructure.dll
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Infrastructure/obj/Debug/net7.0/Fetagne.Infrastructure.pdb
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne/Fetagne.Infrastructure/obj/Debug/net7.0/ref/Fetagne.Infrastructure.dll
