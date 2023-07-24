@@ -8,7 +8,7 @@ Content-Type: application/json
     "lastName": "Tesfaye",
     "Email": "yonatantesfaye@gmail.com",
     "Password": "12345678",
-    "confirmPassword": "string"
+    "confirmPassword": "12345678"
 }
 
 ###

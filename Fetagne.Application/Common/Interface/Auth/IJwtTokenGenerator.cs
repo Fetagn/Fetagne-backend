@@ -1,6 +1,6 @@
 namespace Fetagne.Application.Common.Interface.Auth;
-
+using Fetagne.Domain.Entities;
 public interface IJwtTokenGenerator
 {
-    string GenerateToken(Guid Id, string firstName, string lastName);
+    string GenerateToken(User user);
 }

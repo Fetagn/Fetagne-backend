@@ -1,6 +1,7 @@
 namespace Fetagne.Application;
 
 using Fetagne.Application.Auth;
+using Fetagne.Application.Services.Auth;
 using Microsoft.Extensions.DependencyInjection;
 
 

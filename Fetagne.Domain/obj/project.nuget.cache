@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MXfx6vaI83SUi6pnu2nhqMOw1REcVit23cf07sfp3Es2hRkmeqa9925rDzGVETvD8HXrdGFO7NvxWBc9ZV732w==",
+  "dgSpecHash": "oIgE7PffNSsHblSUmlwDUi9/YdARAPm8TXSwDFy6AJ3n4H5xdTMVB4QS1dUfEqZp7bVOg6vXuTFMB0PFdS9kTg==",
   "success": true,
   "projectFilePath": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Domain/Fetagne.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/yonatantesfaye/.nuget/packages/erroror/1.2.1/erroror.1.2.1.nupkg.sha512"
+  ],
   "logs": []
 }

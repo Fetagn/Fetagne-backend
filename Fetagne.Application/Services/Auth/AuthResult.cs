@@ -1,9 +1,7 @@
 namespace Fetagne.Application.Auth;
+using Fetagne.Domain.Entities;
 
 public record AuthResult (
-    Guid Id,
-    string FirstName,
-    string LastName,
-    string Email,
+    User User,
     string Token
 );

@@ -1,16 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "j0K6KJW8Ei8TADHgIgdN0+ybcW2Vpc/ul53jL1hDjzIUcWwu87XHIeQoTcp1yt/11oCCimYD7XBy2nk2swr+1Q==",
+  "dgSpecHash": "EVV9RiyYpcauiDIk/ImD/1lGgeUvE9RbtCPRPyytsnwrwOk+yUQONGnF9Vwm3a0CVLEqCXtErfrbM/zF/QYXCg==",
   "success": true,
   "projectFilePath": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Api/Fetagne.Api.csproj",
   "expectedPackageFiles": [
+    "/home/yonatantesfaye/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/home/yonatantesfaye/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "/home/yonatantesfaye/.nuget/packages/erroror/1.2.1/erroror.1.2.1.nupkg.sha512",
+    "/home/yonatantesfaye/.nuget/packages/fluentresults/3.15.2/fluentresults.3.15.2.nupkg.sha512",
     "/home/yonatantesfaye/.nuget/packages/microsoft.aspnetcore.openapi/7.0.8/microsoft.aspnetcore.openapi.7.0.8.nupkg.sha512",
-    "/home/yonatantesfaye/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/home/yonatantesfaye/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/yonatantesfaye/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/home/yonatantesfaye/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "/home/yonatantesfaye/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "/home/yonatantesfaye/.nuget/packages/microsoft.extensions.configuration.binder/7.0.0/microsoft.extensions.configuration.binder.7.0.0.nupkg.sha512",
     "/home/yonatantesfaye/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/home/yonatantesfaye/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.1/microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
     "/home/yonatantesfaye/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
     "/home/yonatantesfaye/.nuget/packages/microsoft.extensions.options.configurationextensions/7.0.0/microsoft.extensions.options.configurationextensions.7.0.0.nupkg.sha512",
     "/home/yonatantesfaye/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
@@ -30,7 +35,8 @@
     "/home/yonatantesfaye/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "/home/yonatantesfaye/.nuget/packages/system.text.encoding/4.3.0/system.text.encoding.4.3.0.nupkg.sha512",
     "/home/yonatantesfaye/.nuget/packages/system.text.encodings.web/4.7.2/system.text.encodings.web.4.7.2.nupkg.sha512",
-    "/home/yonatantesfaye/.nuget/packages/system.text.json/4.7.2/system.text.json.4.7.2.nupkg.sha512"
+    "/home/yonatantesfaye/.nuget/packages/system.text.json/4.7.2/system.text.json.4.7.2.nupkg.sha512",
+    "/home/yonatantesfaye/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
   "logs": []
 }

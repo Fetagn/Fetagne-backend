@@ -77,3 +77,7 @@
 /home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Api/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
 /home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Api/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
 /home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Api/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Api/bin/Debug/net7.0/AutoMapper.dll
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Api/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Api/bin/Debug/net7.0/ErrorOr.dll
+/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Api/bin/Debug/net7.0/FluentResults.dll

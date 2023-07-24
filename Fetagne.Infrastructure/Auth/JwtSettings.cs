@@ -1,4 +1,4 @@
-namespace BuberDinner.Infrastructure.Auth;
+namespace Fetagne.Infrastructure.Auth;
 
 public class JwtSettings
 {
