@@ -1,34 +1,30 @@
-namespace Fetagne.Api.Controllers;
-
 using Microsoft.AspNetCore.Mvc;
 using Fetagne.Contracts.Auth;
-using Fetagne.Application.Auth;
-using FluentResults;
-using Fetagne.Application.Common.Errors;
+using Fetagne.Application.Services.Auth.Commands.Register;
+using Fetagne.Application.Services.Auth.Queries.Login;
 using ErrorOr;
 using Fetagne.Api.Controller;
 using Fetagne.Application.Services.Auth;
+using MediatR;
+using Fetagne.Application.Services.Auth.Common;
 
+namespace Fetagne.Api.Controllers;
 [Route("auth")]
 public class AuthController : ApiController
 {
-    private readonly IAuthService _authService;
+    
+    private readonly ISender _meditor = null!;
 
-    public AuthController(IAuthService authService)
+    public AuthController(ISender mediator)
     {
-        _authService = authService;
+        _meditor = mediator;
     }
 
     [HttpPost("register")]
     public async Task<IActionResult> Register(RegisterRequest request)
     {
-        ErrorOr<AuthResult> res = await _authService.Register(
-            request.FirstName,
-            request.LastName,
-            request.Email,
-            request.Password,
-            request.ConfirmPassword
-        );
+        var command = new RegisterCommand(request.FirstName, request.LastName, request.Email, request.Password, request.ConfirmPassword);
+        ErrorOr<AuthResult> res = await _meditor.Send(command);
 
         return res.Match(
             authResult => Ok(MapAuthResult(authResult)),
@@ -39,7 +35,8 @@ public class AuthController : ApiController
     [HttpPost("login")]
     public async Task<IActionResult> Login(LoginRequest request)
     {
-        ErrorOr<AuthResult> res = await _authService.Login(request.Email, request.Password);
+        var query = new LoginQuery(request.Email, request.Password);
+        ErrorOr<AuthResult> res = await _meditor.Send(query);
 
         return res.Match(
             authResult => Ok(MapAuthResult(authResult)),

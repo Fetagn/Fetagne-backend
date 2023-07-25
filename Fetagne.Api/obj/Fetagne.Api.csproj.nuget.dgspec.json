@@ -20,7 +20,7 @@
           "net7.0"
         ],
         "sources": {
-          "/usr/share/dotnet/sdk/7.0.305/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "/home/yonatantesfaye/.dotnet/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -77,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.305/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/yonatantesfaye/.dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -131,6 +131,14 @@
               "target": "Package",
               "version": "[3.15.2, )"
             },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -152,7 +160,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.305/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/yonatantesfaye/.dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -205,7 +213,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.305/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/yonatantesfaye/.dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -264,7 +272,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.305/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/yonatantesfaye/.dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -339,7 +347,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.305/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/yonatantesfaye/.dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
         }
       }
     }

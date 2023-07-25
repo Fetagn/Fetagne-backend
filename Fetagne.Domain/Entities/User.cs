@@ -9,10 +9,20 @@ namespace Fetagne.Domain.Entities
             Email = email.ToLower();
             Password = password;
         }
+
         public Guid Id { get; set; } = Guid.NewGuid();
         public string FirstName { get; set; } = null!;
         public string LastName { get; set; } = null!;
         public string Email { get; set; } = null!;
-        public string Password { get; set; } = null!;
+        private string Password { get; set; } = null!;
+
+        public bool VerifyPassword(string password)
+        {
+            if (password == Password)
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }

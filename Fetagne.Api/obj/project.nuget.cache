@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EVV9RiyYpcauiDIk/ImD/1lGgeUvE9RbtCPRPyytsnwrwOk+yUQONGnF9Vwm3a0CVLEqCXtErfrbM/zF/QYXCg==",
+  "dgSpecHash": "i7lKOAwsFDT554JEcOpEYbd8pBTwbVzhRwRpFS2/EQQHMXP0jnFk/OgFuT6l/XkkR28Vcu9FeAYbUjpMWHklnw==",
   "success": true,
   "projectFilePath": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Api/Fetagne.Api.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,9 @@
     "/home/yonatantesfaye/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/home/yonatantesfaye/.nuget/packages/erroror/1.2.1/erroror.1.2.1.nupkg.sha512",
     "/home/yonatantesfaye/.nuget/packages/fluentresults/3.15.2/fluentresults.3.15.2.nupkg.sha512",
+    "/home/yonatantesfaye/.nuget/packages/mediatr/11.0.0/mediatr.11.0.0.nupkg.sha512",
+    "/home/yonatantesfaye/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/home/yonatantesfaye/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "/home/yonatantesfaye/.nuget/packages/microsoft.aspnetcore.openapi/7.0.8/microsoft.aspnetcore.openapi.7.0.8.nupkg.sha512",
     "/home/yonatantesfaye/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/yonatantesfaye/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
