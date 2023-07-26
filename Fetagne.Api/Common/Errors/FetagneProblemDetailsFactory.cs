@@ -1,4 +1,4 @@
-namespace BuberDinner.Api.Common.Errors;
+namespace Fetagne.Api.Common.Errors;
 
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;

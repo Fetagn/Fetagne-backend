@@ -6,24 +6,26 @@ using ErrorOr;
 using Fetagne.Api.Controller;
 using Fetagne.Application.Services.Auth;
 using MediatR;
+using MapsterMapper;
 using Fetagne.Application.Services.Auth.Common;
 
 namespace Fetagne.Api.Controllers;
 [Route("auth")]
 public class AuthController : ApiController
 {
-    
     private readonly ISender _meditor = null!;
+    public readonly IMapper _mapper = null!;
 
-    public AuthController(ISender mediator)
+    public AuthController(ISender mediator, IMapper mapper)
     {
         _meditor = mediator;
+        _mapper = mapper;
     }
 
     [HttpPost("register")]
     public async Task<IActionResult> Register(RegisterRequest request)
     {
-        var command = new RegisterCommand(request.FirstName, request.LastName, request.Email, request.Password, request.ConfirmPassword);
+        var command = _mapper.Map<RegisterCommand>(request);
         ErrorOr<AuthResult> res = await _meditor.Send(command);
 
         return res.Match(
@@ -35,7 +37,7 @@ public class AuthController : ApiController
     [HttpPost("login")]
     public async Task<IActionResult> Login(LoginRequest request)
     {
-        var query = new LoginQuery(request.Email, request.Password);
+        var query = _mapper.Map<LoginQuery>(request);
         ErrorOr<AuthResult> res = await _meditor.Send(query);
 
         return res.Match(
