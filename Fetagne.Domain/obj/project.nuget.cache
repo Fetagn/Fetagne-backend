@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "J6kFd4Q8MkamK/w9eCQyCaeCK3aPq6SZSD5iKr9cG4sTu7sXNbvyt/m4BZP2UsDYDauqWB8diptD7EwXigqZdw==",
+  "dgSpecHash": "Hw1wHUc0wvVOuZlEyiJmGPlVviIHWushu3zPL7TuXdMh7YVlv52LbBiPQ5ZBq+EiZae2eKOmTuvEqmbApQX7jw==",
   "success": true,
   "projectFilePath": "/home/yonatantesfaye/Documents/project/fetagne/Fetagne-backend/Fetagne.Domain/Fetagne.Domain.csproj",
   "expectedPackageFiles": [
-    "/home/yonatantesfaye/.nuget/packages/erroror/1.2.1/erroror.1.2.1.nupkg.sha512"
+    "/home/yonatantesfaye/.nuget/packages/erroror/1.2.1/erroror.1.2.1.nupkg.sha512",
+    "/home/yonatantesfaye/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/yonatantesfaye/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
+    "/home/yonatantesfaye/.nuget/packages/nunit/3.13.3/nunit.3.13.3.nupkg.sha512"
   ],
   "logs": []
 }

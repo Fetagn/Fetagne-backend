@@ -13,8 +13,8 @@ namespace Fetagne.Api.Controllers;
 [Route("auth")]
 public class AuthController : ApiController
 {
-    private readonly ISender _meditor = null!;
-    public readonly IMapper _mapper = null!;
+    private readonly ISender _meditor;
+    public readonly IMapper _mapper;
 
     public AuthController(ISender mediator, IMapper mapper)
     {
@@ -29,7 +29,7 @@ public class AuthController : ApiController
         ErrorOr<AuthResult> res = await _meditor.Send(command);
 
         return res.Match(
-            authResult => Ok(MapAuthResult(authResult)),
+            authResult => Ok(_mapper.Map<AuthResponse>(authResult)),
             errors => Problem(errors)
         );
     }
@@ -41,19 +41,9 @@ public class AuthController : ApiController
         ErrorOr<AuthResult> res = await _meditor.Send(query);
 
         return res.Match(
-            authResult => Ok(MapAuthResult(authResult)),
+            authResult => Ok(_mapper.Map<AuthResponse>(authResult)),
             errors => Problem(errors)
         );
     }
 
-    private static AuthResponse MapAuthResult(AuthResult authResult)
-    {
-        return new AuthResponse(
-            authResult.User.Id,
-            authResult.User.FirstName,
-            authResult.User.LastName,
-            authResult.User.Email,
-            authResult.Token
-        );
-    }
 }

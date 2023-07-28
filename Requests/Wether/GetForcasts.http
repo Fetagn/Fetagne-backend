@@ -7,8 +7,8 @@ Content-Type: application/json
     "FirstName": "Yonatan",
     "lastName": "Tesfaye",
     "Email": "yonatantesfaye@gmail.com",
-    "Password": "12345678",
-    "confirmPassword": "12345678"
+    "Password": "12D3s@",
+    "confirmPassword": "12D3s@"
 }
 
 ###
@@ -17,5 +17,9 @@ Content-Type: application/json
 
 {
     "Email": "yonatantesfaye@gmail.com",
-    "password": "12345678"
+    "password": "12D3s@"
 }
+
+###
+GET {{host}}/questions
+Authorization: Bearer myJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJlMTA5YTViOC0wYTNjLTQ3Y2QtODM1ZS1kN2VhNjU2NTQzMDQiLCJnaXZlbl9uYW1lIjoiWW9uYXRhbiIsImZhbWlseV9uYW1lIjoiVGVzZmF5ZSIsImp0aSI6ImNkYWY2MmI5LTNhYzMtNGQ0Yy1iM2JjLWI0MTNjMmI1NjM1YyIsImV4cCI6MTY5MDU0NzM4MywiaXNzIjoiRmV0YWduZSIsImF1ZCI6IkZldGFnbmUifQ.0oBdZmSQ2yWivIu_xHRiecj-wk_NJNreqOvvglCO-FA

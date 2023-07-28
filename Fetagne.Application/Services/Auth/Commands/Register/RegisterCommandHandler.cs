@@ -28,10 +28,6 @@ public class RegisterCommandHandler : IRequestHandler<RegisterCommand, ErrorOr<A
         {
             return Task.FromResult<ErrorOr<AuthResult>>(Errors.User.DuplicateEmail);
         }
-        if (command.Password != command.ConfirmPassword)
-        {
-            return Task.FromResult<ErrorOr<AuthResult>>(Errors.User.PasswordNotMatch);
-        }
         var user = new User(command.FirstName, command.LastName, command.Email, command.Password);
         _userRepository.Add(user);
 

@@ -1,6 +1,7 @@
 using Fetagne.Api.Common.Http;
 using ErrorOr;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace Fetagne.Api.Controller;
 
@@ -10,6 +11,23 @@ public class ApiController: ControllerBase
 {
     protected IActionResult Problem(List<Error> errors)
     {
+        if(errors.Count == 0)
+            return Problem(statusCode: StatusCodes.Status500InternalServerError, title: "Internal Server Error");
+            
+        if (errors.All(errors => errors.Type == ErrorType.Validation))
+        {
+            var modelStateDictionary = new ModelStateDictionary();
+            Console.WriteLine("ModelStateDictionary");
+            
+            foreach (var error in errors)
+            {
+                Console.WriteLine(error.Description);
+                modelStateDictionary.AddModelError(error.Code, error.Description);
+            }
+
+            return ValidationProblem(modelStateDictionary);
+        }
+
         HttpContext.Items[HttpContextItemKeys.Errors] = errors;
         var firstError = errors[0];
 

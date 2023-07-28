@@ -11,12 +11,12 @@ using System.Diagnostics;
 using ErrorOr;
 using Fetagne.Api.Common.Http;
 
-internal sealed class BuberDinnerProblemDetailsFactory : ProblemDetailsFactory
+internal sealed class FetagneProblemDetailsFactory : ProblemDetailsFactory
 {
     private readonly ApiBehaviorOptions _options;
     private readonly Action<ProblemDetailsContext>? _configure;
 
-    public BuberDinnerProblemDetailsFactory(
+    public FetagneProblemDetailsFactory(
         IOptions<ApiBehaviorOptions> options,
         IOptions<ProblemDetailsOptions>? problemDetailsOptions = null
     )
